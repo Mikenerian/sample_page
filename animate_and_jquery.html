@@ -1,30 +1,26 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>サンプルページ</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/animate1.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     </head>
 </html>
+
 <body>
     <h1>適当に動きをつけてみる</h1>
-    <div class="animate__animated animate__bounce count2 fadeInUpTrigger">
-      <div class="rect">ボックスだよ</div>
-    </div>
+    <div class="rect animate__animated animate__bounce count2">2回バウンドするよ</div>
+    <div class="rect animate__animated animate__fadeInUp animate__slow">遅いよ</div>
+    <div class="rect animate__animated animate__fadeInUp animate__delay-2s">2秒遅れるよ</div>
+    <div class="rect animate__animated animate__fadeInUp delay-2p5s">2.5秒遅れるよ</div>
+    <div class="rect animate__animated animate__fadeInUp animate__infinite">無限ループするよ</div>
     <div class="rect">ボックスだよ</div>
+    <div class="rect fadeInUpTrigger">スクロールのたびに動くよ</div>
     <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="rect">ボックスだよ</div>
-    <div class="animate__animated animate__bounce fadeInUpTrigger">
-      <div class="rect">ボックスだよ</div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js" integrity="sha512-D68mBFX2aQwVh2wV6uCDLmabIveaSQL3uVUo2Ze7VwxIeOcAd4C1/JagkVoObb/NLkYDrdvY3JHK1KOfenHVcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/move.js"></script>
+    <script src="js/move1.js"></script>
 </body>

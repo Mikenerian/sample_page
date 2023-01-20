@@ -11,3 +11,7 @@
 .fadeInUpTrigger{
   opacity: 10;
 }
+
+.delay-2p5s{
+  animation-delay: 2.5s;
+}
