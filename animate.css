@@ -1,0 +1,13 @@
+.rect{
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.count2{
+  animation-iteration-count: 2;
+}
+
+.fadeInUpTrigger{
+  opacity: 0;
+}
