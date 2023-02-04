@@ -1,12 +1,14 @@
+/* まだ未定の欄を埋めるボックスの設定 */
 .pre-box {
     width:600px;
     height:120px;
-    border:1px solid #111111;
+    border:1px solid #505050;
     margin: 100px 50px 100px 50px;
 }
 
+/* フッターの設定 */
 footer {
-    background-color: #DDDDDD;
+    background-color: #ddd;
     color: #505050;
     padding: 30px;
 }
@@ -79,5 +81,102 @@ footer .wrap .copyright {
         display: block;
         padding: 5px 15px;
         border-bottom: 1px #c4c4c4 solid;
+    }
+}
+
+/* formの設定 */
+.form {
+    max-width:720px;
+    margin: 100px auto 100px 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .form {
+        margin-top: 40px;
+    }
+}
+
+.form-item {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .form-item {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+    }
+}
+
+.form-item-label {
+    width: 100%;
+    max-width: 100px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    .form-item-label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+}
+
+.form-item-input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 36px;
+    flex: 1;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    .form-item-input {
+        margin-left: 0;
+        margin-top: 18px;
+        height: 40px;
+        flex: inherit;
+        font-size: 15px;
+    }
+}
+
+.form-btn {
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 140px;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #8EC7C6;
+    color: fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .form-btn {
+        margin-top: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 160px;
+        font-size: 16px;
     }
 }
