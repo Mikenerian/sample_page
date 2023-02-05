@@ -87,9 +87,17 @@
                         <p class="form-item-label">
                             ここに入力
                         </p>
-                        <input type="text" class="form-item-input" placeholder="example">
+                        <input type="text" id="nameText" class="form-item-input" placeholder="example">
                     </div>
-                    <input type="submit" class="form-btn" value="ボタン">
+                    <div class="form-button">
+                        <input type="button" class="form-btn" value="ボタン" id="checkButton">
+                    </div>
+                    <div class="form-output">
+                        <p class="form-output-label">
+                            入力内容
+                        </p>
+                        <p class="form-output-text" id="msg"></p>
+                    </div>
                 </div>
             </section>
         </main>
@@ -116,5 +124,7 @@
                 </p>
             </div>
         </footer>
+
+        <script src="js/form_item.js"></script>
     </body>
 </html>
