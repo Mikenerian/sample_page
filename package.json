@@ -1,0 +1,26 @@
+{
+  "name": "sample_page",
+  "version": "1.0.0",
+  "description": "このリポジトリは、単にMikenerianがお試しで作っているwebサイトです。<br> そのうちちゃんとしたwebサイトを作ります。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikenerian/sample_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikenerian/sample_page/issues"
+  },
+  "homepage": "https://github.com/Mikenerian/sample_page#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1"
+  }
+}
