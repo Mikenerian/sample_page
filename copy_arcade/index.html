@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <title>Copy of Arcade | Blog</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="menu-wrapper">
-
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <div class="nav-menu_mobile-wrapper">
+        <div class="menu-left-wrapper">
+          <a href="/showcase" id="nav-usecase" class="nav-link is-first w-nav-link">Use cases</a>
+          <a href="/pricing" class="nav-link w-nav-link">Pricing</a>
+          <a href="/blog" aria-current="page" class="nav-link w-nav-link w--current">Blog</a>
+          <a href="/careers" class="nav-link is-careers w-inline-block">
+            <div>Careers</div>
+            <div class="careers-counter-wrapper">
+              <div class="active-careers-count">3</div>
+            </div>
+          </a>
+          <a rel="noopener" href="/dummy" target="_blank" class="button is-nav-button is-mobile w-button">Sign up</a>
+          <a rel="noopener" href="/dummy" target="_blank" class="button is-nav-button is-mobile button-gray w-button">Sign in</a>
+        </div>
       </div>
+    </nav>
+    <div class="menu-right-wrapper">
+      <a href="/dummy" target="_blank" class="nav-link cc-signin w-nav-link">Sign in</a>
+      <a rel="noopener" href="/dummy" target="_blank" class="button is-nav-button w-button">Sign up</a>
     </div>
   </body>
 </html>
